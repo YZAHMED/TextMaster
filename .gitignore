@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+/dist/
+/build/
+/.storybook-out/
+/storybook-static/
+
+# Vite
+/.vite/
+.vite-ssg-cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+/coverage/
+/.nyc_output/
+/playwright-report/
+/playwright/.cache/
+/.cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env
+.env
+.env.*.local
+
+# Editors/OS
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Misc
+*.local
+*.orig
+.tmp/
+
+# CRA legacy artifacts (if present)
+/static/js/*.map
+/static/css/*.map
+
+# Storybook cache
+/node_modules/.cache/storybook/
+
+# Lockfiles (keep only one in repo if you prefer)
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml
+
