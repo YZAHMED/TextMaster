@@ -14,7 +14,19 @@
     "jsx": "react-jsx",
     "strict": true,
     "noUncheckedIndexedAccess": true,
-    "types": ["node", "vitest", "vite/client"]
-  }
+    "types": ["node", "vite/client"]
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "coverage",
+    "tests",
+    "**/*.test.*",
+    "**/*.spec.*",
+    "**/*.stories.*",
+    ".storybook",
+    "vitest.config.ts",
+    "vitest.setup.ts"
+  ]
 }
 
