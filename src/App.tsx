@@ -160,7 +160,14 @@ export default function App() {
         )}
       </main>
 
-      <footer className="app-footer" />
+      <footer className="app-footer">
+        <span>
+          Developed with <span aria-hidden>❤️</span> by{' '}
+          <a href="https://dev.yaqoobahmed.com" target="_blank" rel="noreferrer">
+            Yaqoob Ahmed
+          </a>
+        </span>
+      </footer>
     </div>
   );
 }
